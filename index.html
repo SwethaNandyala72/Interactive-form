@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <div class="error" id="nameError"></div>
+
+        <input type="email" id="email" placeholder="Your Email">
+        <div class="error" id="emailError"></div>
+
+        <input type="text" id="phone" placeholder="Phone Number">
+        <div class="error" id="phoneError"></div>
+
+        <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+        <div class="error" id="messageError"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="success" id="successMessage"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
